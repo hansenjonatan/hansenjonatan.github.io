@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hansen Jonatan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Hansen Jonatan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">TENTANG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#q&a">Q & A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievement">PRESTASI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">MASUK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signup.html">DAFTAR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- bagian form -->
+    <section id="form">
+      <div class="form-container"></div>
+      <div class="form-title text-center">
+        <h1>MASUK</h1>
+      </div>
+      <form>
+        <div class="mb-3 col-6 m-auto">
+          <label for="user-email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="user-email" aria-describedby="emailHelp" placeholder="Email" required />
+        </div>
+        <div class="mb-3 col-6 m-auto">
+          <label for="exampleInputPassword1" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" minlength="4" />
+        </div>
+        <div class="forgot-pass text-center mb-2 text-white">
+          <a href="signup.html">Buat akun disini</a>
+        </div>
+        <div class="form-button text-center">
+          <button type="submit" class="btn btn-success">MASUK</button>
+        </div>
+      </form>
+    </section>
+    <!-- akhir bagian login form  -->
+  </body>
+</html>

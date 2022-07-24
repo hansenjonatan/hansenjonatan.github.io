@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.jumbotron {
+  padding-top: 6rem;
+}
+
+#gallery {
+  background-color: #c9c3c3;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+li a {
+  color: Black;
+  text-decoration: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* bagian login form */
