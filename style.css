@@ -1,12 +1,8 @@
 body {
-  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
 }
 .jumbotron {
   padding-top: 6rem;
-}
-
-#gallery {
-  background-color: #c9c3c3;
 }
 
 section {
@@ -26,4 +22,8 @@ a {
   text-decoration: none;
 }
 
-/* bagian login form */
+button {
+  background-color: transparent;
+  border: none;
+  padding-left: 3px;
+}
