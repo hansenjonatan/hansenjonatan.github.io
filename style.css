@@ -27,3 +27,10 @@ button {
   border: none;
   padding-left: 3px;
 }
+
+.container-achievement {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  display: flex;
+}
